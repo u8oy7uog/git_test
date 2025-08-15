@@ -49,3 +49,21 @@ console.log(myNumber)
 let ben = 10
 ben /= 5
 console.log(ben)
+
+let aa, bb, cc
+aa = 10
+bb = 20
+cc = 30
+aa = bb = cc = 3+2
+console.log(aa, bb, cc)
+
+let n = 2;
+n = n + 5;
+n = n * 2;
+console.log(n)
+
+let a1 = ("First number?", 1);
+let b2 = ("Second number?", 2);
+
+console.log(a1 + b2); 
+

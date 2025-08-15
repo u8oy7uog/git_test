@@ -1,2 +1,3 @@
-# git_test
-Hello Odin!
+git add.
+git commit -m ""
+git push
