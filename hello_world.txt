@@ -1,7 +1,3 @@
-efwerfwewe\
-ewrfwer
-werwer
-werwerwerwethrfsgth
-fghjghjggit add .asdasdgit status
-ewrwerwerwre
-dsfsdfsdf
+git add .
+git commit -m ""
+git push

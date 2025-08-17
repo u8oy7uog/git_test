@@ -67,3 +67,17 @@ let b2 = ("Second number?", 2);
 
 console.log(a1 + b2); 
 
+const username = "Chris";
+const greeting = `Hello, ${username}`;
+console.log(greeting); // "Hello, Chris"
+
+const mars = "Mars - "
+const question1 = "second to Earth?"
+const question2 = `${mars}${question1}`
+console.log(question2)
+console.log(mars,question1)
+
+const cuteline = `Tall is short
+short is tall`
+console.log(cuteline)
+
