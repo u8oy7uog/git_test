@@ -81,3 +81,14 @@ const cuteline = `Tall is short
 short is tall`
 console.log(cuteline)
 
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+console.log(length)
+
+let text1 = "HELLO WORLD";
+let char = text1.charAt(6);
+console.log(char)
+
+let text2 = "HELLO WORLD";
+let code = text2.codePointAt(0);
+console.log(code)
