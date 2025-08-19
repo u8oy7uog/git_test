@@ -92,3 +92,54 @@ console.log(char)
 let text2 = "HELLO WORLD";
 let code = text2.codePointAt(0);
 console.log(code)
+
+function areEqualCaseInsensitive(str1, str2) {
+  return str1.toUpperCase() === str2.toUpperCase();
+}
+
+const age1 = 25
+if (age1 > 14 && age1 < 90)
+    console.log("true")
+else
+    console.log("false")
+
+if (age1 < 14 || age1 > 90)
+    console.log("false")
+else
+    console.log("true")
+
+if (!(age1 > 14 && age1 < 90))
+    console.log("true")
+else
+    console.log("false")
+
+////
+
+let question = (`What is the “official” name of JavaScript?`)
+let answer = 'ECMAScript'
+
+if (question === 'ECMAScript') 
+    console.log("Right!")
+else
+    console.log("You don’t know? ECMAScript!")
+
+////
+
+const fruit = "apple";
+
+switch (fruit) {
+  case "banana":
+    console.log("Banana is yellow");
+    break;
+
+  case "apple":
+    console.log("Apple is red or green");
+    break;
+
+  case "orange":
+    console.log("Orange is orange");
+    break;
+
+  default:
+    console.log("Unknown fruit");
+}
