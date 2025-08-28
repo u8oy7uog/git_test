@@ -2,4 +2,5 @@ git add .
 git commit -m ""
 git push
 
-filename.spec.js
+npm test numberChecker.spec.js
+finsih 03
