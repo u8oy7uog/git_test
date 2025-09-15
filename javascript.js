@@ -143,3 +143,9 @@ switch (fruit) {
   default:
     console.log("Unknown fruit");
 }
+
+function knownKing(king) {
+  return king + " is very well known"
+}
+
+console.log(knownKing("king Euduard"))
