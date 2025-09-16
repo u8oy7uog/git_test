@@ -149,3 +149,7 @@ function knownKing(king) {
 }
 
 console.log(knownKing("king Euduard"))
+
+const changer = "There is more to come, stay tuned!"
+const newChange = changer.replace("stay tuned!", "monster!")
+console.log(newChange)
