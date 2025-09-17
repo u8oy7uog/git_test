@@ -153,3 +153,15 @@ console.log(knownKing("king Euduard"))
 const changer = "There is more to come, stay tuned!"
 const newChange = changer.replace("stay tuned!", "monster!")
 console.log(newChange)
+
+function random(number) {
+  return Math.floor(Math.random() * number);
+}
+
+const myArray = ["I", "love", "chocolate", "frogs"];
+const madeAString = myArray.join("$");
+console.log(madeAString);
+
+const myTest = "The weather is cold"
+const myTestAction = myTest.replace("cold", "hot")
+console.log(myTestAction)
