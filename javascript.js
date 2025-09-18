@@ -165,3 +165,4 @@ console.log(madeAString);
 const myTest = "The weather is cold"
 const myTestAction = myTest.replace("cold", "hot")
 console.log(myTestAction)
+
