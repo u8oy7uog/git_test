@@ -3,4 +3,4 @@ git commit -m ""
 git push
 
 npm test 
-read read read
+read read read read 
